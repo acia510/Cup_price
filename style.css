@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Miso';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Miso'), url('miso.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Miso Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Miso Light'), url('miso-light.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Miso Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Miso Bold'), url('miso-bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: local('Myriad Pro'), url('Myriad-Pro-Light.ttf') format('ttf');
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.bg_box {
+    width: 100%;
+    background-color: #fdde7e;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.box_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 200px;
+    text-align: center;
+
+
+}
+
+.block_1,.block_3 {
+    background-color: white;
+    padding: 38px 104px 38px 104px;
+    border-radius: 5px;
+    text-align: center;
+    width: 360px;
+    height: 441px;
+    transition: all .5s;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+}
+
+
+.block_2 {
+    background-color: white;
+    border-radius: 5px;
+    width: 360px;
+    height: 500px;
+    padding: 49px 110px 56px 110px;
+    transition: all .5s;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.10), 0 5px 5px rgba(0,0,0,0.10);
+}
+
+img {
+    padding-top: 18px;
+}
+
+
+span {
+    font-family: Miso Bold, sans serif;
+    color: #02995b;
+    font-size: 70px;
+}
+h1 {
+    padding-top: 30px;
+    font-family: Miso Light, sans serif;
+    color: #333333;
+    font-size: 56px;
+}
+
+p {
+    padding-top: 24px;
+    font-family: Myriad Pro,  sans serif;
+    color: #333333;
+    font-size: 20px;
+}
+
+.block_1:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.10);
+}
+
+.block_2:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.10);
+}
+
+.block_3:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.10);
+}
